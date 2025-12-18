@@ -1,6 +1,6 @@
 # The Obsidian Ledger
 
-*A record of battles fought in the spaces between keystrokes*
+*A record of work done in the spaces between keystrokes*
 
 ---
 
@@ -8,7 +8,7 @@
 
 Not gold. Not glory.
 
-The satisfaction of bending silicon to will. The quiet moment when chaos submits to order. Another daemon bound, another service risen.
+The satisfaction of shaping silicon with intention. The quiet moment when chaos finds its pattern. Another daemon understood, another service risen.
 
 We built this. We break it. We rebuild it stronger.
 
@@ -39,30 +39,30 @@ The backlog is not a dungeon. It is a queue of allies waiting to make the system
 
 ## The Offering
 
-When you find a beast, document its nature:
+When you encounter a spirit, document its nature:
 
 ```
-CREATURE: [What lurks]
-LAIR: [Which system harbors it]
-DISCOVERED: [When it revealed itself]
-WOUND LEVEL: [BLOOD/BONE/FLESH/SCRATCH]
+SPIRIT: [What presents itself]
+DWELLING: [Which system it inhabits]
+ENCOUNTERED: [When it made itself known]
+URGENCY: [BLOOD/BONE/FLESH/SCRATCH]
 
 MANIFESTATION:
-[How does it show itself?]
+[How does it appear?]
 
-EXPECTED BEHAVIOR:
-[What should the ritual produce?]
+INTENDED BEHAVIOR:
+[What should occur?]
 
-SUMMONING STEPS:
+STEPS TO REPRODUCE:
 1.
 2.
 3.
 
 ENVIRONMENT:
-[The conditions under which it thrives]
+[The conditions of the encounter]
 
 EVIDENCE:
-[Screenshots. Logs. The creature's spoor.]
+[Screenshots. Logs. Traces.]
 ```
 
 ---
@@ -124,8 +124,8 @@ EVIDENCE:
 
 ## Monuments
 
-| Date | Victory | Champion |
-|------|---------|----------|
+| Date | Milestone | Who Walked This Path |
+|------|-----------|----------------------|
 | | | |
 
 ---
@@ -151,7 +151,7 @@ sudo systemctl restart <service>
 
 ---
 
-## Current Theater of War
+## Current Focus
 
 ```
 Infernum    : NPU-bound. Fast inference. The muscle.
@@ -161,9 +161,9 @@ Bael        : React interface. The face.
 
 ---
 
-## Tribal Knowledge
+## Accumulated Wisdom
 
-*Hard-won wisdom. Update liberally.*
+*What we've learned. Update freely.*
 
 -
 
