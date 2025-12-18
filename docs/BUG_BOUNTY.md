@@ -1,153 +1,159 @@
-# Daemoniorum Bug Bounty & QA/QC Process
+# The Obsidian Ledger
 
-*Internal documentation for founders and core team*
+*A record of battles fought in the spaces between keystrokes*
 
 ---
 
 ## The Bounty
 
-The real reward: working software, fewer 3am debugging sessions, and the quiet satisfaction of watching something you built actually *work*.
+Not gold. Not glory.
 
-Track your victories here. Share the bugs. Celebrate the fixes.
+The satisfaction of bending silicon to will. The quiet moment when chaos submits to order. Another daemon bound, another service risen.
+
+We built this. We break it. We rebuild it stronger.
 
 ---
 
-## Bug Tracking
+## Severity of the Wound
 
-### Severity Levels
+| Mark | Nature | Response |
+|------|--------|----------|
+| **BLOOD** | The system bleeds. Data lost. Security breached. Production burns. | Immediate. Sleep is cancelled. |
+| **BONE** | Core function shattered. Users blocked. The path forward obscured. | Next summoning. |
+| **FLESH** | It works, but wounded. Workarounds exist for the patient. | This cycle. |
+| **SCRATCH** | Cosmetic. Annoying. The kind of thing you fix at 2am out of spite. | When the mood strikes. |
 
-| Level | Description | Response |
-|-------|-------------|----------|
-| **P0 - Critical** | Blocks development, data loss, security hole | Drop everything |
-| **P1 - High** | Major feature broken, significant UX issue | Next work session |
-| **P2 - Medium** | Feature degraded, workaround exists | This sprint |
-| **P3 - Low** | Minor annoyance, cosmetic issue | When convenient |
+---
 
-### Bug Report Format
+## The Offering
+
+When you find a beast, document its nature:
 
 ```
-**Product:** [Which tool/app]
-**Found by:** [Your name]
-**Date:** [When discovered]
-**Severity:** [P0-P3]
+CREATURE: [What lurks]
+LAIR: [Which system harbors it]
+DISCOVERED: [When it revealed itself]
+WOUND LEVEL: [BLOOD/BONE/FLESH/SCRATCH]
 
-**What happened:**
-[Description]
+MANIFESTATION:
+[How does it show itself?]
 
-**Expected behavior:**
-[What should happen]
+EXPECTED BEHAVIOR:
+[What should the ritual produce?]
 
-**Steps to reproduce:**
+SUMMONING STEPS:
 1.
 2.
 3.
 
-**Environment:**
-- OS:
-- Version:
-- Relevant config:
+ENVIRONMENT:
+[The conditions under which it thrives]
 
-**Screenshots/Logs:**
-[If applicable]
+EVIDENCE:
+[Screenshots. Logs. The creature's spoor.]
 ```
 
 ---
 
-## QA/QC Process
+## Rites Before Release
 
-### Before Committing
+### Before Committing to the Repository
 
-- [ ] Code compiles/builds without errors
-- [ ] Existing tests still pass
-- [ ] New functionality has basic test coverage
-- [ ] No hardcoded secrets, keys, or credentials
-- [ ] Linter/formatter has been run
+- [ ] The build completes without screaming
+- [ ] Previous incantations (tests) still function
+- [ ] New powers have been tested
+- [ ] No secrets exposed to the void
+- [ ] Code formatted (we are not barbarians)
 
 ### Before Merging to Main
 
-- [ ] Feature branch tested locally
-- [ ] Cross-checked with at least one other founder (async is fine)
-- [ ] Breaking changes documented
-- [ ] Migration path clear (if applicable)
-
-### Testing Checklist by Product Type
-
-**For IDEs/Dev Tools (Wraith, Paimon, Sigil)**
-- [ ] Basic editing operations work
-- [ ] File save/load functions correctly
-- [ ] Plugin/extension system stable
-- [ ] Performance acceptable on target hardware
-
-**For Web Platforms (Bael, Archon, etc.)**
-- [ ] Auth flows work (login/logout/session)
-- [ ] CRUD operations function
-- [ ] UI renders correctly
-- [ ] API endpoints respond appropriately
-
-**For Frameworks/SDKs (Persona, Aether)**
-- [ ] Core APIs function as documented
-- [ ] Example code runs
-- [ ] Dependencies resolve correctly
-- [ ] Build/install process works
-
-**For AI/Agent Components (Leviathan, Infernum)**
-- [ ] Model loads successfully
-- [ ] Inference produces reasonable output
-- [ ] Memory/resource usage acceptable
-- [ ] NPU/GPU utilization as expected
+- [ ] Tested in isolation
+- [ ] Another set of eyes has seen it (async communion acceptable)
+- [ ] Breaking changes documented for future selves
+- [ ] Migration path exists if needed
 
 ---
 
-## The Trophy Case
+## By Domain
 
-### Bugs Squashed
+**The Forges (Wraith, Paimon, Sigil)**
+- [ ] Creation and manipulation of artifacts works
+- [ ] Persistence functions
+- [ ] Extensions stable
+- [ ] Performance acceptable on mortal hardware
 
-| Date | Bug | Found By | Fixed By | Product |
-|------|-----|----------|----------|---------|
+**The Portals (Bael, Archon)**
+- [ ] Entry and exit (auth) functions
+- [ ] CRUD rituals complete
+- [ ] The interface renders true
+- [ ] APIs respond to invocation
+
+**The Foundations (Persona, Aether)**
+- [ ] Core APIs honor their contracts
+- [ ] Examples actually run
+- [ ] Dependencies resolve without blood sacrifice
+- [ ] Installation works on a clean system
+
+**The Minds (Leviathan, Infernum)**
+- [ ] Model awakens successfully
+- [ ] Inference produces coherent output
+- [ ] Resource consumption within bounds
+- [ ] NPU/GPU properly utilized
+
+---
+
+## Hall of Conquered Daemons
+
+| Date | The Beast | Hunter | Slayer | Domain |
+|------|-----------|--------|--------|--------|
 | | | | | |
 
-### Milestones
+## Monuments
 
-| Date | Achievement | Who |
-|------|-------------|-----|
+| Date | Victory | Champion |
+|------|---------|----------|
 | | | |
 
 ---
 
-## Quick Reference
-
-### Common Debug Commands
+## Incantations
 
 ```bash
-# Check running services
+# Survey the running servants
 docker ps
 
-# Tail logs
+# Listen to their whispers
 docker logs -f <container>
 
-# Check system resources
+# Check the machine's vital signs
 htop
 
-# Test API endpoint
+# Probe an endpoint
 curl -X GET http://localhost:PORT/health
-```
 
-### Environment Notes
-
-```
-Infernum: NPU-accelerated inference
-Leviathan: Currently debugging (restructured)
-Bael: React frontend for agent actions
+# When all else fails
+sudo systemctl restart <service>
 ```
 
 ---
 
-## Notes
+## Current Theater of War
 
-*Use this space for gotchas, workarounds, and tribal knowledge*
+```
+Infernum    : NPU-bound. Fast inference. The muscle.
+Leviathan   : Under reconstruction. The spine.
+Bael        : React interface. The face.
+```
+
+---
+
+## Tribal Knowledge
+
+*Hard-won wisdom. Update liberally.*
 
 -
 
 ---
 
-<sub>Internal use only | Daemoniorum, LLC</sub>
+<sub>For internal use by those who build in darkness</sub>
+<sub>Daemoniorum, LLC</sub>
