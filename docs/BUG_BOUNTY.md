@@ -1,6 +1,6 @@
 # The Obsidian Ledger
 
-*A record of work done in the spaces between keystrokes*
+*A record of space between*
 
 ---
 
