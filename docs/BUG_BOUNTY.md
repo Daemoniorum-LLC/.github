@@ -14,14 +14,26 @@ We built this. We break it. We rebuild it stronger.
 
 ---
 
-## Severity of the Wound
+## On Autosacrifice
 
-| Mark | Nature | Response |
-|------|--------|----------|
-| **BLOOD** | The system bleeds. Data lost. Security breached. Production burns. | Immediate. Sleep is cancelled. |
-| **BONE** | Core function shattered. Users blocked. The path forward obscured. | Next summoning. |
-| **FLESH** | It works, but wounded. Workarounds exist for the patient. | This cycle. |
-| **SCRATCH** | Cosmetic. Annoying. The kind of thing you fix at 2am out of spite. | When the mood strikes. |
+The blood we offer is our own. Time. Attention. The hours poured into the work.
+
+Every creature found - no matter how small - is a gift. There are no "lesser" daemons, only different urgencies. We do not create prisoners. What we find, we address. What we cannot address now, we honor with documentation until we can.
+
+The backlog is not a dungeon. It is a queue of allies waiting to make the system stronger.
+
+---
+
+## Urgency of Response
+
+*All wounds matter. This is about when, not whether.*
+
+| Mark | Nature | When We Respond |
+|------|--------|-----------------|
+| **BLOOD** | The system bleeds. Data at risk. Security exposed. | Now. We give our night if needed. |
+| **BONE** | Core function broken. The path forward blocked. | Next session. Priority over new work. |
+| **FLESH** | Wounded but standing. Workarounds exist. | This cycle. It will be seen. |
+| **SCRATCH** | Small. Subtle. The kind of thing noticed in passing. | Soon. These too deserve resolution. |
 
 ---
 
@@ -102,11 +114,13 @@ EVIDENCE:
 
 ---
 
-## Hall of Conquered Daemons
+## Hall of Resolved Spirits
 
-| Date | The Beast | Hunter | Slayer | Domain |
-|------|-----------|--------|--------|--------|
-| | | | | |
+*Not conquered - transformed. Each was a teacher.*
+
+| Date | The Creature | Found By | Resolved By | Domain | What It Taught Us |
+|------|--------------|----------|-------------|--------|-------------------|
+| | | | | | |
 
 ## Monuments
 
