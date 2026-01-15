@@ -76,14 +76,6 @@ Operating system for AI agents. Bare-metal x86_64/aarch64, no Linux dependency. 
 | **Nihil** | Tensor framework in Sigil — CUDA backend, Flash Attention, LLaMA 7B-70B support | 90% |
 | **Haagenti** | Compression — LZ4 (4GB/s), Zstd, Brotli with AVX-512/NEON acceleration | 85% |
 
-### Performance vs VS Code
-
-| Metric | Eidolon | VS Code |
-|--------|---------|---------|
-| Startup | 340ms | 2,030ms |
-| Memory | 127MB | 437MB |
-| Git ops | 89ms | 1,000ms |
-
 ---
 
 ## Styx
