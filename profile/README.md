@@ -1,46 +1,50 @@
-# Daemoniorum, LLC
+# Daemoniorum
 
-> Building intelligent software platforms that augment human capability.
-> From AI development tools to enterprise solutions.
+> Infrastructure for AI minds.
 
-## 🎯 Our Mission
+## Sigil
 
-We create software that empowers developers and businesses to build faster, smarter, and more efficiently by seamlessly integrating AI into every layer of the development stack.
+**[Sigil](https://sigil-lang.com)** is our flagship programming language, designed for AI agents.
 
-## 🏗️ Core Products
+Evidentiality markers track data provenance at the type level:
+- `!` Known — computed locally, verified
+- `?` Uncertain — may be absent, needs handling
+- `~` Reported — external source, untrusted
+- `‽` Paradox — explicit trust boundary
 
-### Developer Tools & IDEs
-- **Wraith** - Advanced IDE for AI-assisted software development
-- **Paimon** - AI-powered development assistants (VS Code & IntelliJ)
-- **Sigil** - High-performance programming language with built-in AI integration
+```sigil
+fn process(data: String~) -> Result<Output!, Error?> {
+    let validated = data |validate!{ is_safe };  // ~ promotes to !
+    Ok(transform(validated))
+}
+```
 
-### Frameworks & Platforms
-- **Persona Framework** - SDK for building AI-powered applications
-- **Bael** - Modern administrative interfaces for enterprise apps
-- **Archon** - Enterprise CMS and e-commerce platform
-- **Aether** - Game engine with AI-powered development tools
+The type system enforces that untrusted data cannot flow to trusted sinks without explicit validation. Agents can reason about information provenance statically.
 
-### Industry Solutions
-- **Lilith** - AI-powered HR management platform
-- **Codex** - Legal practice management & document automation
-- **Vulcan** - Manufacturing ERP system
-- **Orpheus** - Music creation & collaboration platform
-- **Dagon** - Agricultural management application
-- **Umbra** - Art collection & gallery management
+**Resources:**
+- [sigil-lang.com](https://sigil-lang.com) — Documentation & playground
+- [GitHub](https://github.com/Daemoniorum-LLC/sigil) — Source code
 
-## 🔬 Technology
+## Nyx
 
-Built with **Kotlin**, **TypeScript**, **Rust**, and modern cloud infrastructure.
-Powered by open-source AI models and enterprise-grade security.
+Operating system and runtime infrastructure for AI agents. Includes:
 
-## 📍 Location
+- **Infernum** — Local LLM inference engine (Rust)
+- **Arcanum** — Agent memory and knowledge graphs
+- **Eidolon** — Development environment for agent workflows
 
-Roy, Utah 🏔️
+## Styx
 
-## 🌐 Website
+AI-native git platform written entirely in Sigil. Pure implementation (no libgit2), with federation support via ActivityPub.
 
-[www.daemoniorum.com](https://www.daemoniorum.com)
+## Philosophy
+
+Software should be designed for machines to understand, not just humans to read. Our tools prioritize semantic clarity, type-level guarantees, and machine-parseable structure.
+
+We build infrastructure that lets AI agents reason about code, data, and trust boundaries with the same rigor that compilers reason about types.
 
 ---
 
-<sub>© 2025 Daemoniorum, LLC • Architecting the future of intelligent software</sub>
+Roy, Utah
+
+[daemoniorum.com](https://www.daemoniorum.com)
