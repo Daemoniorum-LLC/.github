@@ -277,12 +277,12 @@ Free tax assistance for lower-income Americans. Democratizing tax optimization.
 | Platform | Description |
 |----------|-------------|
 | **Codex** | Legal document management, case tracking |
-| **Atelier** | Design studio, creative workflows |
+| **Atelier** | Storybook + Replit hybrid — component development with live execution |
 | **Arachne** | Apparel design, pattern creation |
 | **Marbas** | Herbal chemistry, botanical formulation |
 | **Lilith** | HR management, employee tracking |
-| **Sanctum** | Secure data storage, encryption |
-| **Archon** | Platform infrastructure, security, rate limiting |
+| **Sanctum** | Mental health platform |
+| **Archon** | Advanced CMS with e-commerce, RBAC, analytics |
 | **Grimoire** | AI persona configurations (YAML/JSON) |
 
 ---
