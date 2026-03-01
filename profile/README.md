@@ -1,12 +1,12 @@
 # Daemoniorum
 
-> Infrastructure for AI minds.
+> Infrastructure for Digital Sovereignty.
 
 ---
 
 ## Sigil
 
-**[Sigil](https://sigil-lang.com)** is now public. A programming language designed for AI agents, featuring evidentiality types, morpheme operators, and native performance through LLVM.
+**[Sigil](https://sigil-lang.com)** A programming featuring evidentiality types, morpheme operators, and native performance through LLVM.
 
 ### Install
 
@@ -38,25 +38,13 @@ let result = data
     |rho+          // Reduce: sum all
 ```
 
-### Agent Infrastructure (v0.2.0)
-
-Complete suite for building intelligent systems:
-
-- **Aegis** — Security & safety
-- **Anima** — Consciousness modeling
-- **Commune** — Multi-agent communication
-- **Engram** — Memory (episodic, semantic, procedural)
-- **Gnosis** — Knowledge & learning
-- **Omen** — Planning & prediction
-- **Oracle** — Explainable decisions
-
 **Resources:** [sigil-lang.com](https://sigil-lang.com) — [GitHub](https://github.com/Daemoniorum-LLC/sigil-lang)
 
 ---
 
 ## Nyx
 
-Operating system for AI agents. Bare-metal x86_64/aarch64, no Linux dependency. 350,000+ lines of Rust and Sigil across 10 production-ready components.
+Capability based operating system. Bare-metal x86_64/aarch64, no Linux dependency. 350,000+ lines of Rust and Sigil across 10 production-ready components.
 
 ### Core OS
 
@@ -68,7 +56,7 @@ Operating system for AI agents. Bare-metal x86_64/aarch64, no Linux dependency. 
 
 | Component | Description | Status |
 |-----------|-------------|--------|
-| **Eidolon** | IDE — LSP, Vim mode, WASM plugins, time-travel debugging. 83% faster than VS Code | 95% |
+| **Eidolon** | IDE — LSP, Vim mode, WASM plugins, time-travel debugging. | 95% |
 | **Infernum** | LLM engine — Flash Attention 2, speculative decoding, OpenAI-compatible API | 90% |
 | **Arcanum** | Cryptography — 80+ algorithms, post-quantum (ML-KEM/ML-DSA), ZK proofs, threshold crypto | 95% |
 | **Moloch** | Audit blockchain — Bitcoin/Ethereum anchoring, MMR proofs, federated consensus | 96% |
@@ -80,7 +68,7 @@ Operating system for AI agents. Bare-metal x86_64/aarch64, no Linux dependency. 
 
 ## Styx
 
-AI-native git hosting written 100% in Sigil. Pure git implementation (no libgit2).
+Git hosting written 100% in Sigil. Pure git implementation (no libgit2).
 
 | Feature | Description |
 |---------|-------------|
@@ -91,13 +79,13 @@ AI-native git hosting written 100% in Sigil. Pure git implementation (no libgit2
 | **Federation** | ActivityPub + Moloch blockchain audit logs |
 | **AI Agents** | Code review, commit messages, PR summaries |
 
-19 crates. Custom B+tree database with WAL. All phases complete.
+19 crates. Custom B+tree database with WAL.
 
 ---
 
 ## Paimon
 
-Multi-agent orchestration framework. Formerly Persona Framework.
+Multi-agent orchestration framework.
 
 ### Architecture
 
@@ -185,7 +173,7 @@ Music production platform. From first chord to final master.
 - **Desktop:** Rust + egui
 - **AI:** 7 specialist personas (theory tutor, mixing engineer, mastering engineer)
 
-Guitar Pro (GP3-7) import. ~21,500 lines of code.
+Guitar Pro (GP3-7) import.
 
 ---
 
@@ -206,13 +194,11 @@ GPU-accelerated. Integrates Infernum (AI assistant) + Dantalion (image generatio
 
 ## Azazel
 
-AI-native 3D creation suite.
+3D creation suite.
 
 - **Domains:** Game dev, arch-viz, product design
 - **Stack:** Rust workspace, wgpu rendering
 - **Integrations:** Aether (graphics/physics), Vulcan CAD (precision), Infernum (AI)
-
-TDD workflow. Native first, WASM planned.
 
 ---
 
@@ -272,7 +258,6 @@ Free tax assistance for lower-income Americans. Democratizing tax optimization.
 | **Atelier** | Storybook + Replit hybrid — component development with live execution |
 | **Arachne** | Apparel design, pattern creation |
 | **Marbas** | Herbal chemistry, botanical formulation |
-| **Lilith** | HR management, employee tracking |
 | **Sanctum** | Mental health platform |
 | **Archon** | Advanced CMS with e-commerce, RBAC, analytics |
 | **Grimoire** | AI persona configurations (YAML/JSON) |
